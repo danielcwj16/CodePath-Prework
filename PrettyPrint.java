@@ -6,10 +6,10 @@ public class PrettyPrint{
     public static void main(String args[])
     {
         System.out.println("Hellow world!");
-        ArrayList<ArrayList<Integer>> res = prettyprint(4);
+        ArrayList<ArrayList<Integer>> res = prettyPrint(4);
     }
 
-    public ArrayList<ArrayList<Integer>> prettyPrint(int a) {
+    public static ArrayList<ArrayList<Integer>> prettyPrint(int a) {
 	    if(a == 0)
             return new ArrayList<ArrayList<Integer>>();
         int row = 2*a-1;
